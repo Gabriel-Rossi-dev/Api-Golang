@@ -18,7 +18,7 @@ type DBConfig struct {
 	Port     string
 	User     string
 	Pass     string
-	DataBase string
+	DataBase string //driver name
 }
 
 func init() {
