@@ -27,7 +27,7 @@ func init() {
 	viper.SetDefault("database.port", "5432") //porta padrao PostGres
 }
 
-func load() error {
+func Load() error {
 	// Nome do arquivo de configuração
 	viper.SetConfigName("config")
 	//tipo do arquivo
