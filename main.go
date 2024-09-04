@@ -18,7 +18,7 @@ func main() {
 	r := chi.NewRouter()
 	r.Post("/", handlers.Create)
 	r.Put("/{id}", handlers.Update)
-	r.Delete("{id}", handlers.Delete)
+	r.Delete("/{id}", handlers.Delete)
 	r.Get("/", handlers.List)
 	r.Get("/{id}", handlers.Get)
 
