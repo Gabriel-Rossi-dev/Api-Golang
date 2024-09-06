@@ -15,7 +15,9 @@ Tecnologias Utilizadas:
     <h3>*  grant all privileges on database api_todo to user_todo; <h3>
     <h3>*  \l <h3>
     <h3>*  \c api_todo <h3>
-    <h3>*  create table todos (id serial primary key, name varchar, description text, done bool); <h3>
+    <h3>*  \dt                   mostra as tabelas  <h3>
+    <h3>*  create table todos (id serial primary key, title varchar, description text, done bool); <h3>
     <h3>*  grant all privileges on all tables in schema public to user_todo; <h3>
+    <h3>*  grant all privileges on all sequences in schema public to user_todo; <h3>
     
 
