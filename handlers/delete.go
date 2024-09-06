@@ -28,7 +28,7 @@ func Delete(w http.ResponseWriter, r *http.Request) {
 	}
 
 	if rows > 1 {
-		log.Print("Error: foram removidos %d registros", rows)
+		log.Printf("Error: foram removidos %d registros", rows)
 	}
 
 	resp := map[string]any{

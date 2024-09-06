@@ -37,7 +37,7 @@ func Update(w http.ResponseWriter, r *http.Request) {
 	}
 
 	if rows > 1 {
-		log.Print("Error: foram atualizados %d registros", rows)
+		log.Printf("Error: foram atualizados %d registros", rows)
 	}
 
 	resp := map[string]any{
