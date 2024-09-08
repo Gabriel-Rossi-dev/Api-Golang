@@ -38,7 +38,7 @@ grant all privileges on database api_todo to user_todo;
 ```
 Criando tabela de Todos.
 ``` console
-create table todos (id serial primary key, title varchar, description text, done bool);
+create table todos (id serial primary key, title varchar, description text, done bool default false);
 ```
 Dando as permissões de todoas as tabelas da base para o usuário
 ``` console
