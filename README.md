@@ -20,6 +20,10 @@ Criando Base de Dados
 ``` console
 create database api_todo;
 ```
+Conectando a Base de Dados
+``` console
+\c api_todo; 
+```
 Criando Usuário do BD
 ``` console
 create user user_todo; 
